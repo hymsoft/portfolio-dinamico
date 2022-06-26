@@ -1,0 +1,21 @@
+/* Sobre mi Start */
+.sobremi__content {
+  padding: 80px 20px 20px 20px;
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.sobremi__content--nombre {
+  font-family: "Orbitron", sans-serif;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+  .sobremi__content {
+    font-size: 1.4rem;
+  }
+}
+/* Sobre mi End */

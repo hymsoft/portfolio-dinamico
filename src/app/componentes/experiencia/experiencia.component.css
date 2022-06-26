@@ -1,0 +1,18 @@
+/* Experiencia Start */
+.experiencia {
+  background-color: rgb(36, 41, 47);
+  min-height: calc(100vh - var(--header-height));
+  display: flex;
+  align-items: center;
+  padding: 60px 0px 100px 0px;
+}
+
+.experiencia__content--titulo {
+  /* text-align: center; */
+  padding-bottom: 40px;
+}
+
+.card-subtitle {
+  color: #abb1ae !important;
+}
+/* Experiencia End */
