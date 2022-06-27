@@ -3,11 +3,11 @@
   <div class="banner__content">
     <img
       class="banner__content--img"
-      src="../assets/img/profile.jpg"
-      alt="Foto perfil Hugo Antonio Segura"
+      [src]="perfil.imagen"
+      [alt]="perfil.imagenAlt"
     />
-    <h1>Hugo Antonio Segura</h1>
-    <h3>Full Stack Developer Jr.</h3>
-    <div class="banner__content--slogan">while(!(succeed = try()));</div>
+    <h1>{{ perfil.nombre }}</h1>
+    <h3>{{ perfil.titulo }}</h3>
+    <div class="banner__content--slogan">{{ perfil.slogan }}</div>
   </div>
 </section>
