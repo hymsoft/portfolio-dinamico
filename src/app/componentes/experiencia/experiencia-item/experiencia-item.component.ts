@@ -2,10 +2,10 @@ import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-experiencia',
-  templateUrl: './experiencia.component.html',
-  styleUrls: ['./experiencia.component.css'],
+  templateUrl: './experiencia-item.component.html',
+  styleUrls: ['./experiencia-item.component.css'],
 })
-export class ExperienciaComponent implements OnInit {
+export class ExperienciaItemComponent implements OnInit {
   @Input() experiencia: any;
   constructor() {}
 

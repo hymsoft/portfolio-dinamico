@@ -6,11 +6,12 @@ import { EncabezadoComponent } from './componentes/encabezado/encabezado.compone
 import { SocialBarComponent } from './componentes/social-bar/social-bar.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { SobreMiComponent } from './componentes/sobre-mi/sobre-mi.component';
-import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
+import { ExperienciaItemComponent } from './componentes/experiencia/experiencia-item/experiencia-item.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
-import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
-import { ExperienciaListComponent } from './componentes/experiencia-list/experiencia-list.component';
+import { HabilidadItemComponent } from './componentes/habilidad/habilidad-item/habilidad-item.component';
+import { ExperienciaListComponent } from './componentes/experiencia/experiencia-list/experiencia-list.component';
+import { HabilidadListComponent } from './componentes/habilidad/habilidad-list/habilidad-list.component';
 
 @NgModule({
   declarations: [
@@ -19,16 +20,15 @@ import { ExperienciaListComponent } from './componentes/experiencia-list/experie
     SocialBarComponent,
     BannerComponent,
     SobreMiComponent,
-    ExperienciaComponent,
+    ExperienciaItemComponent,
     EducacionComponent,
     ProyectosComponent,
-    HabilidadesComponent,
-    ExperienciaListComponent
+    HabilidadItemComponent,
+    ExperienciaListComponent,
+    HabilidadListComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

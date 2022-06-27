@@ -26,3 +26,7 @@ Ejecute `ng build` para compilar el proyecto. Los archivos de compilación se al
 - El componente experiencia fue dividido en dos componentes separados
   - Componente experienciaList que recibe un objeto `experienciaList` con todas las experiencias y lo pasa uno por uno por parámetro al componente experiencia para ser mostrados
   - Componente experiencia que recibe un objeto `experiencia` para mostrar los datos
+- El componente habilidades fue dividido en los componentes
+  - habilidad-item recibe un objeto `habilidad` del componente habilidad-list
+  - habilidad-list recibe un objeto `habilidades` para pasar listar las habilidades
+- Se reordeno la estructura de carpeta de los componentes para mejor entendimiento de la estructura

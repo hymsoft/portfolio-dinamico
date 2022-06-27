@@ -1,0 +1,19 @@
+<!-- Excel -->
+<div class="row">
+  <div class="col-3 col-md-2 skill-name">
+    <strong>{{ habilidad.habilidad }}</strong>
+  </div>
+  <div class="col">
+    <div class="progress">
+      <div
+        class="progress-bar"
+        role="progressbar"
+        [attr.aria-valuenow]="habilidad.fechaInicio"
+        aria-valuemin="0"
+        [attr.aria-valuemax]="habilidad.fechaActual"
+        [style.width]="habilidad.porcentaje + '%'"
+      ></div>
+    </div>
+  </div>
+  <div class="col-2 col-md-1 text-center">{{ habilidad.cantidadAnios }}</div>
+</div>

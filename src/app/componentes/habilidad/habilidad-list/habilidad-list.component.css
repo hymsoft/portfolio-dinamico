@@ -1,0 +1,14 @@
+/* Skills Start*/
+/* .skills {
+  min-height: calc(100vh - var(--header-height));
+} */
+
+.skills__content {
+  margin: 60px 0px 100px 0px;
+}
+
+.skills__items {
+  max-width: 800px;
+}
+
+/* Skills End */

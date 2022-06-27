@@ -1,0 +1,13 @@
+<!-- Skills -->
+<section class="container-fluid skills d-flex flex-column align-items-center">
+  <div class="container skills__content p-3">
+    <h2 class="mb-0">{{ habilidadesTitulo }}</h2>
+    <p class="text-muted mb-0">{{ habilidadesSubTitulo }}</p>
+    <hr class="mt-0" />
+    <div class="skills__items mx-auto">
+      <div *ngFor="let habilidad of habilidades">
+        <app-habilidad [habilidad]="habilidad"></app-habilidad>
+      </div>
+    </div>
+  </div>
+</section>
