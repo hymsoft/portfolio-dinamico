@@ -1,0 +1,15 @@
+<!-- Experiencia -->
+<section class="container-fluid experiencia text-white">
+  <div class="experiencia__content container">
+    <div class="experiencia__content--titulo">
+      <h2>{{ experienciaTitulo }}</h2>
+      <hr />
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <!-- Diseño 5 -->
+      <div *ngFor="let experiencia of experienciaList">
+        <app-experiencia [experiencia]="experiencia"></app-experiencia>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,10 @@
+/* Experiencia Start */
+.experiencia {
+  background-color: rgb(36, 41, 47);
+  min-height: calc(100vh - var(--header-height));
+  display: flex;
+  align-items: center;
+  padding: 60px 0px 100px 0px;
+}
+
+/* Experiencia End */

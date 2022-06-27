@@ -23,3 +23,6 @@ Ejecute `ng build` para compilar el proyecto. Los archivos de compilación se al
 - El componente encabezado recibe los datos a traves de `property binding` e `interpolación`
 - El componente banner recibe los datos desde un objeto `perfil`
 - El componente sobreMi recibe los datos desde un objeto `sobreMi`
+- El componente experiencia fue dividido en dos componentes separados
+  - Componente experienciaList que recibe un objeto `experienciaList` con todas las experiencias y lo pasa uno por uno por parámetro al componente experiencia para ser mostrados
+  - Componente experiencia que recibe un objeto `experiencia` para mostrar los datos
