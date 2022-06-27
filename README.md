@@ -1,6 +1,7 @@
 # PortfolioDinamico
 
-Proyecto generado con [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+Generado con [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.  
+El proyecto consiste, en traspasar el portfolio estático generado en el módulo dos del Plan Argentina Programa, a un proyecto Angular para hacerlo dinamico. Durante el Módulo 3, solo se tomarán los datos de forma dinámica, pero en modo local, ya sea con variables, arrays u objetos o desde un fichero json.
 
 ## Servidor de desarrollo
 
