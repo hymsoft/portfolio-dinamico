@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./encabezado.component.css']
 })
 export class EncabezadoComponent implements OnInit {
+  logoArgentinaPrograma = "../assets/img/APLogo-20-20.png";
 
   constructor() { }
 
