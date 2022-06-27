@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Hoja de Ruta  
+**26/06/2022** +Creación del proyecto Angular y traspaso del portfolio estatico al componente principal
++Creación de los componentes base y traspaso del html y css a su correspondiente componente
+**27/06/2022** +El componente encabezado recibe los datos a traves de property binding e interpolación
++El componente banner recibe los datos desde un objeto => perfil
+
