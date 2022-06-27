@@ -1,23 +1,9 @@
 <!-- Sobre mi -->
 <section class="sobremi">
   <div class="sobremi__content">
-    <h2 class="sobremi__content--nombre">Hola, soy @hymsoft</h2>
-    <p>
-      Un antiguo programador. Empecé con dbase, Clipper, FoxPro for D.O.S.,
-      Visual FoxPro, basic, visual basic... Apasionado por la tecnología,
-      siempre estudiando y aprendiendo. Usuario avanzado de Excel, ferviente
-      eliminador de virus informáticos sin pérdida de datos. Amante del backend,
-      enamorándome del FrontEnd.
-    </p>
-    <p>
-      Actualmente aprendiendo: Programación web con HTML-CSS-JS Curso de C# en
-      la UTN-FRT - Universidad Tecnológica Nacional - Facultad Regional Tucumán
-      - Profesora: Escobar Estela Mabel Segunda etapa del plan
-      #ProgramaArgentina - Full Stack Developer - Profesora: Karin Fleischer.
-    </p>
-    <p>
-      Me gustan los deportes, especialmente rugby. Hincha de Boca Juniors, Club
-      Atético Talleres de Córdoba y Huirapuca R.C
+    <h2 class="sobremi__content--nombre">{{ sobreMi.titulo }}</h2>
+    <p *ngFor="let parrafo of sobreMi.texto">
+      {{ parrafo }}
     </p>
   </div>
 </section>
