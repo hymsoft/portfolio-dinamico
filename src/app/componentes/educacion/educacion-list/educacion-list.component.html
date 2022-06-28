@@ -1,0 +1,21 @@
+<!-- Educacion -->
+<section
+  class="container-fluid educacion d-flex flex-column align-items-center"
+>
+  <!-- Educacion -->
+  <div class="container educacion__content p-3">
+    <h2>{{ educacionTitulo }}</h2>
+    <hr />
+    <div *ngFor="let educacion of educacionList">
+      <app-educacion-item [educacion]="educacion"></app-educacion-item>
+    </div>
+  </div>
+  <!-- Cursos -->
+  <div class="container educacion__content p-3">
+    <h2>{{ cursosTitulo }}</h2>
+    <hr />
+    <div *ngFor="let educacion of cursosList">
+      <app-educacion-item [educacion]="educacion"></app-educacion-item>
+    </div>
+  </div>
+</section>

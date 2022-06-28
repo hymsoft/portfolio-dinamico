@@ -7,10 +7,11 @@ import { SocialBarComponent } from './componentes/social-bar/social-bar.componen
 import { BannerComponent } from './componentes/banner/banner.component';
 import { SobreMiComponent } from './componentes/sobre-mi/sobre-mi.component';
 import { ExperienciaItemComponent } from './componentes/experiencia/experiencia-item/experiencia-item.component';
-import { EducacionComponent } from './componentes/educacion/educacion.component';
+import { ExperienciaListComponent } from './componentes/experiencia/experiencia-list/experiencia-list.component';
+import { EducacionListComponent } from './componentes/educacion/educacion-list/educacion-list.component';
+import { EducacionItemComponent } from './componentes/educacion/educacion-item/educacion-item.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { HabilidadItemComponent } from './componentes/habilidad/habilidad-item/habilidad-item.component';
-import { ExperienciaListComponent } from './componentes/experiencia/experiencia-list/experiencia-list.component';
 import { HabilidadListComponent } from './componentes/habilidad/habilidad-list/habilidad-list.component';
 
 @NgModule({
@@ -21,11 +22,12 @@ import { HabilidadListComponent } from './componentes/habilidad/habilidad-list/h
     BannerComponent,
     SobreMiComponent,
     ExperienciaItemComponent,
-    EducacionComponent,
+    EducacionListComponent,
     ProyectosComponent,
     HabilidadItemComponent,
     ExperienciaListComponent,
     HabilidadListComponent,
+    EducacionItemComponent,
   ],
   imports: [BrowserModule],
   providers: [],

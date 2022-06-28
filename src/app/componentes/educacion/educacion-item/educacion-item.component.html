@@ -1,0 +1,36 @@
+<div class="row educacion__item mb-3">
+  <div class="col">
+    <div class="educacion__item--border">
+      <div class="row">
+        <div class="col d-flex flex-wrap">
+          <div class="flex-fill">
+            <h2 class="fs-3 mb-0">{{ educacion.establecimiento }}</h2>
+          </div>
+          <div>
+            <h4 class="fs-6">
+              {{ educacion.fechaInicio }}
+              <span *ngIf="educacion.fechaFinal"
+                >- {{ educacion.fechaFinal }}</span
+              >
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="fs-6">
+            {{ educacion.titulo }}
+            <span *ngIf="educacion.estado">({{ educacion.estado }})</span>
+          </p>
+          <a
+            *ngIf="educacion.certificado"
+            [href]="educacion.certificado"
+            target="_blank"
+            class="btn btn-outline-dark btn-sm"
+            >Ver certificado</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+/* Educacion Start */
+.educacion {
+  min-height: calc(100vh - var(--header-height));
+  padding: 60px 0px 100px 0px;
+}
+
+/* Educacion End */
