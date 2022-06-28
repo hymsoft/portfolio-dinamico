@@ -10,7 +10,8 @@ import { ExperienciaItemComponent } from './componentes/experiencia/experiencia-
 import { ExperienciaListComponent } from './componentes/experiencia/experiencia-list/experiencia-list.component';
 import { EducacionListComponent } from './componentes/educacion/educacion-list/educacion-list.component';
 import { EducacionItemComponent } from './componentes/educacion/educacion-item/educacion-item.component';
-import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { ProyectoListComponent } from './componentes/proyecto/proyecto-list/proyecto-list.component';
+import { ProyectoItemComponent } from './componentes/proyecto/proyecto-item/proyecto-item.component';
 import { HabilidadItemComponent } from './componentes/habilidad/habilidad-item/habilidad-item.component';
 import { HabilidadListComponent } from './componentes/habilidad/habilidad-list/habilidad-list.component';
 
@@ -23,11 +24,12 @@ import { HabilidadListComponent } from './componentes/habilidad/habilidad-list/h
     SobreMiComponent,
     ExperienciaItemComponent,
     EducacionListComponent,
-    ProyectosComponent,
+    ProyectoListComponent,
     HabilidadItemComponent,
     ExperienciaListComponent,
     HabilidadListComponent,
     EducacionItemComponent,
+    ProyectoItemComponent,
   ],
   imports: [BrowserModule],
   providers: [],

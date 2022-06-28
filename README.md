@@ -36,3 +36,6 @@ Ejecute `ng build` para compilar el proyecto. Los archivos de compilación se al
 - El componente educacion fue dividido en los componentes
   - educacion recibe un objeto `educacion` del componente educacion-list
   - educacionList recibe un objeto `educacionList` o `cursosList` para listar las educaciones
+- El componente proyecto fue dividido en los componentes
+  - proyecto recibe un objeto `proyecto` del componente proyecto-list
+  - proyectoList recibe un objeto `proyectosList` para listar los proyectos

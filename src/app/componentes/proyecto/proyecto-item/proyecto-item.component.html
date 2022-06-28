@@ -1,0 +1,28 @@
+<!-- Argentina Programa desafio 1 -->
+<div class="proyecto__item p-3">
+  <figure class="proyecto__item--figure">
+    <img
+      class="proyecto__figure--img"
+      [src]="proyecto.imagen"
+      [alt]="proyecto.imagenAlt"
+    />
+    <div class="proyecto__capa">
+      <h3 class="proyecto__capa--title">
+        {{ proyecto.titulo }}
+      </h3>
+      <h4 class="proyecto__capa--subtitle">
+        {{ proyecto.subTitulo }}
+      </h4>
+      <p class="proyecto__capa--text">
+        {{ proyecto.texto }}
+      </p>
+      <a
+        *ngIf="proyecto.enlace"
+        [href]="proyecto.enlace"
+        target="_blank"
+        class="btn btn-outline-dark btn-sm mt-2"
+        >Ver proyecto</a
+      >
+    </div>
+  </figure>
+</div>

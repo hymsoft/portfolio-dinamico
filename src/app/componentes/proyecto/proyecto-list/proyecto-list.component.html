@@ -1,0 +1,18 @@
+<!-- Proyectos -->
+<section
+  class="container-fluid proyectos d-flex flex-column align-items-center"
+>
+  <div class="container proyectos__content p-3">
+    <div class="proyectos__content--title text-white">
+      <h2>{{ proyectoTitulo }}</h2>
+      <hr />
+    </div>
+    <div class="row proyectos__item">
+      <div class="col d-flex flex-wrap justify-content-evenly mx-auto">
+        <div *ngFor="let proyecto of proyectosList">
+          <app-proyecto-item [proyecto]="proyecto"></app-proyecto-item>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
