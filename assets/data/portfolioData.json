@@ -1,0 +1,226 @@
+{
+    "encabezado": {
+        "logo": "assets/img/APLogo-20-20.png",
+        "logoAlt": "Logo Plan Argentina Programa",
+        "brand": "#YoProgramo"
+    },
+    "perfil": {
+        "nombre": "Hugo Antonio Segura",
+        "titulo": "Full Stack Developer Jr.",
+        "slogan": "while(!(succeed = try()));",
+        "imagen": "assets/img/profile.jpg",
+        "imagenAlt": "Foto perfil Segura Hugo Antonio"
+    },
+    "sobreMi": {
+        "titulo": "Hola, soy @hymsoft",
+        "texto": [
+            "Un antiguo programador. Empecé con dbase, Clipper, FoxPro for D.O.S., Visual FoxPro, basic, visual basic... Apasionado por la tecnología, siempre estudiando y aprendiendo. Usuario avanzado de Excel, ferviente eliminador de virus informáticos sin pérdida de datos. Amante del backend, enamorándome del FrontEnd.",
+            "Actualmente aprendiendo: Programación web con HTML-CSS-JS Curso de C# en la UTN-FRT - Universidad Tecnológica Nacional - Facultad Regional Tucumán - Profesora: Escobar Estela Mabel Segunda etapa del plan #ProgramaArgentina - Full Stack Developer - Profesora: Karin Fleischer.",
+            "Me gustan los deportes, especialmente rugby. Hincha de Boca Juniors, Club Atético Talleres de Córdoba y Huirapuca R.C"
+        ]
+    },
+    "educacion": [
+        {
+            "tipo": "Educacion",
+            "establecimiento": "Universidad Tecnológica Nacional",
+            "fechaInicio": "Marzo 1991",
+            "fechaFinal": "Junio 1993",
+            "titulo": "Ingeniería en Sistemas de la Información",
+            "certificado": "",
+            "estado": "Incompleto"
+        },
+        {
+            "tipo": "Educacion",
+            "establecimiento": "Escuela Nacional de Comercio",
+            "fechaInicio": "Marzo 1985",
+            "fechaFinal": "Junio 1990",
+            "titulo": "Perito Mercantil con orientación contable",
+            "certificado": "",
+            "estado": "Completo"
+        }
+    ],
+    "cursos": [
+        {
+            "tipo": "Curso",
+            "establecimiento": "FreeCodeCamp",
+            "fechaInicio": "Septiembre 2020",
+            "fechaFinal": "Noviembre 2020",
+            "titulo": "Responsive Web Design",
+            "certificado": "https://www.freecodecamp.org/certification/hymsoft/responsive-web-design",
+            "estado": "Completo"
+        },
+        {
+            "tipo": "Curso",
+            "establecimiento": "Ministerio de Desarrollo Productivo",
+            "fechaInicio": "Agosto 2021",
+            "fechaFinal": "Diciembre 2021",
+            "titulo": "Argentina Programa Etapa 1 #SeProgramar",
+            "certificado": "https://mumuki.io/argentina-programa/certificates/verify/BLx2c7WVoncbill5",
+            "estado": "Completo"
+        },
+        {
+            "tipo": "Curso",
+            "establecimiento": "Ministerio de Desarrollo Productivo",
+            "fechaInicio": "Febrero 2022",
+            "fechaFinal": "",
+            "titulo": "Full Stack Developer. Argentina Programa Etapa 2 #YoProgramo",
+            "certificado": "",
+            "estado": "Cursando"
+        }
+    ],
+    "experiencia": [
+        {
+            "logo": "assets/img/logo_diseno5.png",
+            "logoAlt": "Logo Diseño 5 S.R.L.",
+            "empresa": "Diseño 5 S.R.L",
+            "puesto": "Diseñador Gráfico",
+            "descripcion": "Diseño gráfico en general, con el uso de programas como Photoshop,InDesign, Illustrator.",
+            "fechaIngreso": "Enero 2010",
+            "fechaEgreso": "Julio 2018",
+            "meses": "102"
+        },
+        {
+            "logo": "assets/img/logo_scd.png",
+            "logoAlt": "Logo SCD Servicios Informáticos",
+            "empresa": "SCD Servicios Informáticos",
+            "puesto": "Técnico de Campo",
+            "descripcion": "Mantenimiento y configuración de equipos informáticos relacionados con el despacho de combustibles líquidos, en todas las estaciones de servicio YPF-ESSO, desde Río Gallegos(Santa Cruz) hasta Comodoro Rivadavia(Chubut).",
+            "fechaIngreso": "Enero 2006",
+            "fechaEgreso": "Enero 2010",
+            "meses": "48"
+        },
+        {
+            "logo": "assets/img/logo_stylus.png",
+            "logoAlt": "Logo Stylus S.A.",
+            "empresa": "Stylus S.A.",
+            "puesto": "Encargado de RMA",
+            "descripcion": "Encargado de la recepción, clasificación, prueba, tramitación y entrega de los artículos en estado de RMA (Return material authorization). Armado y prueba de equipos de computación. Instalación de software en general. Mantenimiento de la red interna de la sucursal Córdoba.",
+            "fechaIngreso": "Enero 2003",
+            "fechaEgreso": "Diciembre 2005",
+            "meses": "23"
+        },
+        {
+            "logo": "assets/img/logo_cosmos_video.png",
+            "logoAlt": "Logo Cosmos Video",
+            "empresa": "Cosmos Video",
+            "puesto": "Encargado de cómputos",
+            "descripcion": "Desarrollo de Sistema para el control de las reparaciones del taller. Desarrollo de Sistema para el control de Stock y listas de precios en la sección Ventas. Desarrollo de Sistemas para terceros. Implementación e instalación de red interna, incluyendo conexión a internet y manejo de correo electrónico en todas las PCS. Implementación e instalación de redes para terceros .Reparación de computadoras e impresoras láser y matriciales. Instalación y configuración de Hardware y Software",
+            "fechaIngreso": "Enero 1997",
+            "fechaEgreso": "Febrero 2003",
+            "meses": "73"
+        },
+        {
+            "logo": "",
+            "logoAlt": "",
+            "empresa": "Barone S.A.",
+            "puesto": "Encargado y programador del centro de cómputos de la sucursal",
+            "descripcion": "Desarrollo de varios sistemas para el control de la sucursal en conjunto con el encargado de cómputos de Casa Central Control de stock y facturación de la sucursal.",
+            "fechaIngreso": "Abril 1992",
+            "fechaEgreso": "Octubre 1994",
+            "meses": "30"
+        },
+        {
+            "logo": "assets/img/logo_municiplidad_de_concepcion.jpg",
+            "logoAlt": "Logo Municipalidad de Concepción - Tucumán",
+            "empresa": "Municipalidad de Concepción",
+            "puesto": "Ayudante de programador / programador",
+            "descripcion": "Carga de datos en la Tesorería de la Municipalidad Ayudante de Programación de sistema para el área Tierra y cementerio. Programador de sistema para área Catastro Implementación de la red que une el Área Catastro - Tierras - Tesorería.",
+            "fechaIngreso": "Marzo 1990",
+            "fechaEgreso": "Enero 1992",
+            "meses": "22"
+        }
+    ],
+    "proyectos": [
+        {
+            "imagen": "assets/img/Hugo-Antonio-Segura-Portfolio.png",
+            "imagenAlt": "Proyectos - Portfolio Dinámico",
+            "titulo": "Portfolio Dinámico",
+            "subTitulo": "Plan Argentina Programa (Este proyecto)",
+            "texto": "Se traspaso el portfolio estático a un proyecto dinámico con Angular. Se crearon los componentes y el servicio para obtener los datos de un json.",
+            "enlace": ""
+        },
+        {
+            "imagen": "assets/img/Hugo-Antonio-Segura-Portfolio.png",
+            "imagenAlt": "Proyectos - Portfolio Estático",
+            "titulo": "Portfolio Estático",
+            "subTitulo": "Plan Argentina Programa",
+            "texto": " Portfolio FrontEnd utilizando HTML-CSS-JS, lenguajes aprendidos durante el segundo modulo del plan #YoProgramo.",
+            "enlace": "https: //hymsoft.github.io/portfolio-static2"
+        },
+        {
+            "imagen": "assets/img/veterinaria-cuki.png",
+            "imagenAlt": "Proyectos - Desafio 3",
+            "titulo": "Veterinaria Cuki",
+            "subTitulo": "Plan Argentina Programa | 3º desafío",
+            "texto": "Dado ciertos requerimientos por el cliente, se realizó un sitio web, respetando las especificaciones pero agregando lo que sea necesario al proyecto sin romper su estructura.",
+            "enlace": "https: //hymsoft.github.io/veterinaria-cuki"
+        },
+        {
+            "imagen": "assets/img/password-checker.png",
+            "imagenAlt": "Proyectos - Desafio 2",
+            "titulo": "Desafío 2 Modulo 2",
+            "subTitulo": "Plan Argentina Programa",
+            "texto": "Habia que generar cualquier proyecto en Bootstrap y JS. Realicé un controlador de password. Muestra distintos requisitos a cumplir. En verde los que están bien y en rojo los que están mal. Cuando todo esta ok, se habilita el boton de login.",
+            "enlace": "https: //hymsoft.github.io/password-checker"
+        },
+        {
+            "imagen": "assets/img/desafio-1.png",
+            "imagenAlt": "Proyectos - Desafio 1",
+            "titulo": "Desafío 1 Modulo 2",
+            "subTitulo": "Plan Argentina Programa",
+            "texto": "El desafio consiste en tomar una plantilla de CV Web estática suministrado por la profesora, y adaptarla a nuestra necesidad, cambiando tipografias, colores, agregando foto/s y todo lo que se considere necesario.",
+            "enlace": "https: //hymsoft.github.io/desafio-modulo-2"
+        }
+    ],
+    "habilidades": [
+        {
+            "habilidad": "Excel",
+            "fechaInicio": "2001",
+            "fechaActual": "2022",
+            "porcentaje": 100,
+            "cantidadAnios": "21"
+        },
+        {
+            "habilidad": "Illustrator",
+            "fechaInicio": "2010",
+            "fechaActual": "2022",
+            "porcentaje": 57,
+            "cantidadAnios": "12"
+        },
+        {
+            "habilidad": "PhotoShop",
+            "fechaInicio": "2010",
+            "fechaActual": "2022",
+            "porcentaje": 57,
+            "cantidadAnios": "12"
+        },
+        {
+            "habilidad": "Indesign",
+            "fechaInicio": "2011",
+            "fechaActual": "2022",
+            "porcentaje": 52,
+            "cantidadAnios": "11"
+        },
+        {
+            "habilidad": "HTML5",
+            "fechaInicio": "2020",
+            "fechaActual": "2022",
+            "porcentaje": 9,
+            "cantidadAnios": "2"
+        },
+        {
+            "habilidad": "CSS",
+            "fechaInicio": "2020",
+            "fechaActual": "2022",
+            "porcentaje": 9,
+            "cantidadAnios": "2"
+        },
+        {
+            "habilidad": "Javascrpit",
+            "fechaInicio": "2021",
+            "fechaActual": "2022",
+            "porcentaje": 4,
+            "cantidadAnios": "1"
+        }
+    ]
+}
