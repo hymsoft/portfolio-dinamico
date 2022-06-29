@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioDataService } from 'src/app/servicios/portfolio-data.service';
 
 @Component({
   selector: 'app-encabezado',
@@ -6,11 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./encabezado.component.css'],
 })
 export class EncabezadoComponent implements OnInit {
-  logoArgentinaPrograma = '../assets/img/APLogo-20-20.png';
-  logoArgentinaProgramaAlt = 'Logo Plan Argentina Programa';
-  brand = '#YoProgramo';
+  encabezado: any;
 
-  constructor() {}
+  constructor(private porfolioData: PortfolioDataService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.porfolioData.obtenerDatos().subscribe((data) => {
+      this.encabezado = data.encabezado;
+    });
+  }
 }

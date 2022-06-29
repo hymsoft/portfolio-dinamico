@@ -14,7 +14,7 @@ import { ProyectoListComponent } from './componentes/proyecto/proyecto-list/proy
 import { ProyectoItemComponent } from './componentes/proyecto/proyecto-item/proyecto-item.component';
 import { HabilidadItemComponent } from './componentes/habilidad/habilidad-item/habilidad-item.component';
 import { HabilidadListComponent } from './componentes/habilidad/habilidad-list/habilidad-list.component';
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +31,7 @@ import { HabilidadListComponent } from './componentes/habilidad/habilidad-list/h
     EducacionItemComponent,
     ProyectoItemComponent,
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })

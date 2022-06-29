@@ -39,3 +39,8 @@ Ejecute `ng build` para compilar el proyecto. Los archivos de compilación se al
 - El componente proyecto fue dividido en los componentes
   - proyecto recibe un objeto `proyecto` del componente proyecto-list
   - proyectoList recibe un objeto `proyectosList` para listar los proyectos
+- Creada la rama
+- Creado el servicio portfolioDataService para obtener los datos de un archivo json
+- Creado el archivo json con su estructura basica
+- Modificado algunos variables sueltas que tenia convirtiendo todo en un objeto
+- Los componentes `encabezado`,`banner` y `sobreMi` ya leen los datos del json

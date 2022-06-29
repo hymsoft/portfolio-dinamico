@@ -1,0 +1,22 @@
+{
+    "encabezado": {
+        "logo": "../assets/img/APLogo-20-20.png",
+        "logoAlt": "Logo Plan Argentina Programa",
+        "brand": "#YoProgramo"
+    },
+    "perfil": {
+        "nombre": "Hugo Antonio Segura",
+        "titulo": "Full Stack Developer Jr.",
+        "slogan": "while(!(succeed = try()));",
+        "imagen": "../assets/img/profile.jpg",
+        "imagenAlt": "Foto perfil Segura Hugo Antonio"
+    },
+    "sobreMi": {
+        "titulo": "Hola, soy @hymsoft",
+        "texto": [
+            "Un antiguo programador. Empecé con dbase, Clipper, FoxPro for D.O.S., Visual FoxPro, basic, visual basic... Apasionado por la tecnología, siempre estudiando y aprendiendo. Usuario avanzado de Excel, ferviente eliminador de virus informáticos sin pérdida de datos. Amante del backend, enamorándome del FrontEnd.",
+            "Actualmente aprendiendo: Programación web con HTML-CSS-JS Curso de C# en la UTN-FRT - Universidad Tecnológica Nacional - Facultad Regional Tucumán - Profesora: Escobar Estela Mabel Segunda etapa del plan #ProgramaArgentina - Full Stack Developer - Profesora: Karin Fleischer.",
+            "Me gustan los deportes, especialmente rugby. Hincha de Boca Juniors, Club Atético Talleres de Córdoba y Huirapuca R.C"
+        ]
+    }
+}

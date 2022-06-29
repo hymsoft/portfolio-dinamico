@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioDataService } from 'src/app/servicios/portfolio-data.service';
 
 @Component({
   selector: 'app-banner',
@@ -6,14 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./banner.component.css'],
 })
 export class BannerComponent implements OnInit {
-  perfil = {
-    nombre: 'Hugo Antonio Segura',
-    titulo: 'Full Stack Developer Jr.',
-    slogan: 'while(!(succeed = try()));',
-    imagen: '../assets/img/profile.jpg',
-    imagenAlt: 'Foto perfil Segura Hugo Antonio',
-  };
-  constructor() {}
+  perfil: any;
 
-  ngOnInit(): void {}
+  constructor(private portfolioData: PortfolioDataService) {}
+
+  ngOnInit(): void {
+    this.portfolioData.obtenerDatos().subscribe((data) => {
+      this.perfil = data.perfil;
+      console.log(data.perfil);
+      console.log(this.perfil);
+    });
+  }
 }
