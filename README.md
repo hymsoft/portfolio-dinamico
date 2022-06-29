@@ -39,8 +39,14 @@ Ejecute `ng build` para compilar el proyecto. Los archivos de compilación se al
 - El componente proyecto fue dividido en los componentes
   - proyecto recibe un objeto `proyecto` del componente proyecto-list
   - proyectoList recibe un objeto `proyectosList` para listar los proyectos
-- Creada la rama
+- Creada la rama prueba-json-branch
 - Creado el servicio portfolioDataService para obtener los datos de un archivo json
 - Creado el archivo json con su estructura basica
 - Modificado algunos variables sueltas que tenia convirtiendo todo en un objeto
 - Los componentes `encabezado`,`banner` y `sobreMi` ya leen los datos del json
+
+**29/06/2022**
+
+- Los componentes `educacion`, `experiencia`, `habilidad` y `proyecto` ya leen los datos del json
+- Falta mucho que corregir y refactorizar, pero eso sera más adelate :-)
+- No voy a hacer un branch de la rama, asi queda en el main los modulos que leen los datos desde variables y en la rama prueba-json-branch
