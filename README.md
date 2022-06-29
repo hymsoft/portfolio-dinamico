@@ -49,4 +49,6 @@ Ejecute `ng build` para compilar el proyecto. Los archivos de compilación se al
 
 - Los componentes `educacion`, `experiencia`, `habilidad` y `proyecto` ya leen los datos del json
 - Falta mucho que corregir y refactorizar, pero eso sera más adelate :-)
-- No voy a hacer un branch de la rama, asi queda en el main los modulos que leen los datos desde variables y en la rama prueba-json-branch
+- No voy a borrar la rama, asi queda en el main los modulos que leen los datos desde variables y en la rama prueba-json-branch
+- Al final fusione la rama para poder hacer el despliegue en ghpages.
+- Instale la dependencia angular-cli-ghpages para hacer el deploy.
