@@ -100,6 +100,16 @@
             "meses": "23"
         },
         {
+            "logo": "assets/img/logo_cosmos_video.png",
+            "logoAlt": "Logo Cosmos Video",
+            "empresa": "Cosmos Video",
+            "puesto": "Encargado de cómputos",
+            "descripcion": "Desarrollo de Sistema para el control de las reparaciones del taller. Desarrollo de Sistema para el control de Stock y listas de precios en la sección Ventas. Desarrollo de Sistemas para terceros. Implementación e instalación de red interna, incluyendo conexión a internet y manejo de correo electrónico en todas las PCS. Implementación e instalación de redes para terceros .Reparación de computadoras e impresoras láser y matriciales. Instalación y configuración de Hardware y Software",
+            "fechaIngreso": "Enero 1997",
+            "fechaEgreso": "Febrero 2003",
+            "meses": "73"
+        },
+        {
             "logo": "",
             "logoAlt": "",
             "empresa": "Barone S.A.",
@@ -122,20 +132,20 @@
     ],
     "proyectos": [
         {
-            "imagen": "assets/img/desafio-1.png",
-            "imagenAlt": "Proyectos - Desafio 1",
-            "titulo": "Desafío 1 Modulo 2",
-            "subTitulo": "Plan Argentina Programa",
-            "texto": "El desafio consiste en tomar una plantilla de CV Web estática suministrado por la profesora, y adaptarla a nuestra necesidad, cambiando tipografias, colores, agregando foto/s y todo lo que se considere necesario.",
-            "enlace": "https: //hymsoft.github.io/desafio-modulo-2"
+            "imagen": "assets/img/Hugo-Antonio-Segura-Portfolio.png",
+            "imagenAlt": "Proyectos - Portfolio Dinámico",
+            "titulo": "Portfolio Dinámico",
+            "subTitulo": "Plan Argentina Programa (Este proyecto)",
+            "texto": "Se traspaso el portfolio estático a un proyecto dinámico con Angular. Se crearon los componentes y el servicio para obtener los datos de un json.",
+            "enlace": ""
         },
         {
-            "imagen": "assets/img/password-checker.png",
-            "imagenAlt": "Proyectos - Desafio 2",
-            "titulo": "Desafío 2 Modulo 2",
+            "imagen": "assets/img/Hugo-Antonio-Segura-Portfolio.png",
+            "imagenAlt": "Proyectos - Portfolio Estático",
+            "titulo": "Portfolio Estático",
             "subTitulo": "Plan Argentina Programa",
-            "texto": "Habia que generar cualquier proyecto en Bootstrap y JS. Realicé un controlador de password. Muestra distintos requisitos a cumplir. En verde los que están bien y en rojo los que están mal. Cuando todo esta ok, se habilita el boton de login.",
-            "enlace": "https: //hymsoft.github.io/password-checker"
+            "texto": " Portfolio FrontEnd utilizando HTML-CSS-JS, lenguajes aprendidos durante el segundo modulo del plan #YoProgramo.",
+            "enlace": "https: //hymsoft.github.io/portfolio-static2"
         },
         {
             "imagen": "assets/img/veterinaria-cuki.png",
@@ -146,12 +156,20 @@
             "enlace": "https: //hymsoft.github.io/veterinaria-cuki"
         },
         {
-            "imagen": "assets/img/Hugo-Antonio-Segura-Portfolio.png",
-            "imagenAlt": "Proyectos - Portfolio Estático",
-            "titulo": "Portfolio Estático",
+            "imagen": "assets/img/password-checker.png",
+            "imagenAlt": "Proyectos - Desafio 2",
+            "titulo": "Desafío 2 Modulo 2",
             "subTitulo": "Plan Argentina Programa",
-            "texto": " Portfolio FrontEnd utilizando HTML-CSS-JS, lenguajes aprendidos durante el segundo modulo del plan #YoProgramo.",
-            "enlace": "https: //hymsoft.github.io/portfolio-static2"
+            "texto": "Habia que generar cualquier proyecto en Bootstrap y JS. Realicé un controlador de password. Muestra distintos requisitos a cumplir. En verde los que están bien y en rojo los que están mal. Cuando todo esta ok, se habilita el boton de login.",
+            "enlace": "https: //hymsoft.github.io/password-checker"
+        },
+        {
+            "imagen": "assets/img/desafio-1.png",
+            "imagenAlt": "Proyectos - Desafio 1",
+            "titulo": "Desafío 1 Modulo 2",
+            "subTitulo": "Plan Argentina Programa",
+            "texto": "El desafio consiste en tomar una plantilla de CV Web estática suministrado por la profesora, y adaptarla a nuestra necesidad, cambiando tipografias, colores, agregando foto/s y todo lo que se considere necesario.",
+            "enlace": "https: //hymsoft.github.io/desafio-modulo-2"
         }
     ],
     "habilidades": [

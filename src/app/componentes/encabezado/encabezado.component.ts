@@ -9,10 +9,10 @@ import { PortfolioDataService } from 'src/app/servicios/portfolio-data.service';
 export class EncabezadoComponent implements OnInit {
   encabezado: any;
 
-  constructor(private porfolioData: PortfolioDataService) {}
+  constructor(private portfolioData: PortfolioDataService) {}
 
   ngOnInit(): void {
-    this.porfolioData.obtenerDatos().subscribe((data) => {
+    this.portfolioData.obtenerDatos().subscribe((data) => {
       this.encabezado = data.encabezado;
     });
   }
