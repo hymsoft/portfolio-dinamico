@@ -1,6 +1,6 @@
 {
     "encabezado": {
-        "logo": "assets/img/APLogo-20-20.png",
+        "logo": "../assets/img/APLogo-20-20.png",
         "logoAlt": "Logo Plan Argentina Programa",
         "brand": "#YoProgramo"
     },
@@ -8,7 +8,7 @@
         "nombre": "Hugo Antonio Segura",
         "titulo": "Full Stack Developer Jr.",
         "slogan": "while(!(succeed = try()));",
-        "imagen": "assets/img/profile.jpg",
+        "imagen": "../assets/img/profile.jpg",
         "imagenAlt": "Foto perfil Segura Hugo Antonio"
     },
     "sobreMi": {
@@ -70,7 +70,7 @@
     ],
     "experiencia": [
         {
-            "logo": "assets/img/logo_diseno5.png",
+            "logo": "../assets/img/logo_diseno5.png",
             "logoAlt": "Logo Diseño 5 S.R.L.",
             "empresa": "Diseño 5 S.R.L",
             "puesto": "Diseñador Gráfico",
@@ -80,7 +80,7 @@
             "meses": "102"
         },
         {
-            "logo": "assets/img/logo_scd.png",
+            "logo": "../assets/img/logo_scd.png",
             "logoAlt": "Logo SCD Servicios Informáticos",
             "empresa": "SCD Servicios Informáticos",
             "puesto": "Técnico de Campo",
@@ -90,7 +90,7 @@
             "meses": "48"
         },
         {
-            "logo": "assets/img/logo_stylus.png",
+            "logo": "../assets/img/logo_stylus.png",
             "logoAlt": "Logo Stylus S.A.",
             "empresa": "Stylus S.A.",
             "puesto": "Encargado de RMA",
@@ -100,7 +100,7 @@
             "meses": "23"
         },
         {
-            "logo": "assets/img/logo_cosmos_video.png",
+            "logo": "../assets/img/logo_cosmos_video.png",
             "logoAlt": "Logo Cosmos Video",
             "empresa": "Cosmos Video",
             "puesto": "Encargado de cómputos",
@@ -120,7 +120,7 @@
             "meses": "30"
         },
         {
-            "logo": "assets/img/logo_municiplidad_de_concepcion.jpg",
+            "logo": "../assets/img/logo_municiplidad_de_concepcion.jpg",
             "logoAlt": "Logo Municipalidad de Concepción - Tucumán",
             "empresa": "Municipalidad de Concepción",
             "puesto": "Ayudante de programador / programador",
@@ -132,7 +132,7 @@
     ],
     "proyectos": [
         {
-            "imagen": "assets/img/Hugo-Antonio-Segura-Portfolio.png",
+            "imagen": "../assets/img/Hugo-Antonio-Segura-Portfolio.png",
             "imagenAlt": "Proyectos - Portfolio Dinámico",
             "titulo": "Portfolio Dinámico",
             "subTitulo": "Plan Argentina Programa (Este proyecto)",
@@ -140,7 +140,7 @@
             "enlace": ""
         },
         {
-            "imagen": "assets/img/Hugo-Antonio-Segura-Portfolio.png",
+            "imagen": "../assets/img/Hugo-Antonio-Segura-Portfolio.png",
             "imagenAlt": "Proyectos - Portfolio Estático",
             "titulo": "Portfolio Estático",
             "subTitulo": "Plan Argentina Programa",
@@ -148,7 +148,7 @@
             "enlace": "https: //hymsoft.github.io/portfolio-static2"
         },
         {
-            "imagen": "assets/img/veterinaria-cuki.png",
+            "imagen": "../assets/img/veterinaria-cuki.png",
             "imagenAlt": "Proyectos - Desafio 3",
             "titulo": "Veterinaria Cuki",
             "subTitulo": "Plan Argentina Programa | 3º desafío",
@@ -156,7 +156,7 @@
             "enlace": "https: //hymsoft.github.io/veterinaria-cuki"
         },
         {
-            "imagen": "assets/img/password-checker.png",
+            "imagen": "../assets/img/password-checker.png",
             "imagenAlt": "Proyectos - Desafio 2",
             "titulo": "Desafío 2 Modulo 2",
             "subTitulo": "Plan Argentina Programa",
@@ -164,7 +164,7 @@
             "enlace": "https: //hymsoft.github.io/password-checker"
         },
         {
-            "imagen": "assets/img/desafio-1.png",
+            "imagen": "../assets/img/desafio-1.png",
             "imagenAlt": "Proyectos - Desafio 1",
             "titulo": "Desafío 1 Modulo 2",
             "subTitulo": "Plan Argentina Programa",
